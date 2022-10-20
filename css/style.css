@@ -26,9 +26,10 @@ body {
 }
 
 header {
-    font-size: 40px;
+    font-size: 80px;
     text-align: center;
     padding-top: 20px;
+    text-shadow: 7px 7px cadetblue;             /*https://www.w3schools.com/cssref/css3_pr_text-shadow.asp*/
     /* border: 2px solid brown; */
 }
 
@@ -83,4 +84,47 @@ header {
     box-shadow: 2px 2px 3px 1px dimgray;
     margin: 0 auto;
     display: none;
+}
+
+#modal {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+
+#modal-textbox {
+    background-color: cadetblue;
+    height: 500px;
+    width: 800px;
+    margin: 150px auto;
+    padding-top: 100px;
+}
+
+h1 {
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+
+
+input {
+    border-radius: 3px;
+    border: none;
+    height: 30px;
+    width: 170px;
+    text-align: center;
+    margin: 0 5px 0 5px;
+}
+
+#submit {
+    margin-top: 20px;
+    background-color: white;
+    color: cadetblue;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
 }
